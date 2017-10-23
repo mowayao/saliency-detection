@@ -1,0 +1,11 @@
+#-*- coding:utf-8 -*-
+
+BATCH_SIZE = 16
+NUM_WORKERS = 2
+NUM_EPOCHS = 50
+BASE_LEARNING_RATE = 1e-7
+LEARNING_RATE = 1e-4
+IMG_SIZE = (256, 256)
+LABEL_SIZE = (256, 256)
+
+visdom = False
